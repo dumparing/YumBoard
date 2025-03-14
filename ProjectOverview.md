@@ -26,9 +26,17 @@ Vision Statement:
 - To make cooking and grocery shopping effortless and social for busy college students.
 
 
-Communication Plan:
--  We plan to use a discord server with several dedicated channels for different purposes. 
+Development Methodology:
+- Agile
 
+
+Communication Plan:
+-  We plan to use a discord server with several specific, dedicated channels. 
+
+
+Meeting Plan:
+- **TA Meeting**: We are going to meet on Tuesdays at 2pm every week. 
+- **Team Meeting**: We are going to meet as a team directly after our meeting with the TA (at 2:15pm)
 
 
 
