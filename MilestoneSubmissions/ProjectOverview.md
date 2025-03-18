@@ -1,5 +1,6 @@
 # YumBoard
 
+# General Information
 
 >[!note]
 >- Team Number: 016-1
@@ -39,6 +40,12 @@ Meeting Plan:
 - **Team Meeting**: We are going to meet as a team directly after our meeting with the TA (at 2:15pm)
 
 
-Use Case Diagram:
-![Organizational Chart](image.png)
+# Use Case Diagram:
+
+![Use Case Diagram](UseCaseDiagram.png)
+
+# Wireframe:
+
+
+
 
