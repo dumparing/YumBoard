@@ -1,0 +1,15 @@
+
+
+$primary: #85c12b;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary {
+    color: $gray-100;
+}
+
+.btn-primary:hover {
+    color: $light;
+}
+
+
