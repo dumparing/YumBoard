@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "sass:watch": "sass --source-map -w resources/scss/:resources/css/",
+    "sass:release": "sass --style=compressed -w resources/scss/:resources/css/"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,8 @@
     "express-session": "^1.18.1",
     "nodemon": "^3.1.9",
     "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "sass": "^1.86.0"
   }
 }
