@@ -4,23 +4,32 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="/">YumBoard</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         {{!-- TODO: Use handlebars to put "active" class on whichever nav-item is active --}}
         <li class="nav-item">
-          <a class="nav-link" href="./page1">Grocery List</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./page2">Profile</a>
+          <a class="nav-link" href="./page2">Grocery List</a>
         </li>
-        <li class="nav-item">
+        {{!-- <li class="nav-item">
           <a class="nav-link" href="./page3">Page 3</a>
-        </li>
+        </li> --}}
       </ul>
     </div>
     <div class="d-flex">
-      <img src="/static/images/svg/ssstar.svg" alt="...">
+      <div class="dropstart">
+        <button class="btn btn-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class="navbar-profile" src="/static/images/svg/person-circle.svg" alt="...">
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>

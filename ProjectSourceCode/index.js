@@ -56,13 +56,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.json()); // specify the usage of JSON for parsing request body.
 
 // initialize session variables
-// app.use(
-//     session({
-//         secret: process.env.SESSION_SECRET,
-//         saveUninitialized: false,
-//         resave: false,
-//     })
-// );
+app.use(
+    session({
+        secret: process.env.SESSION_SECRET,
+        saveUninitialized: false,
+        resave: false,
+    })
+);
 
 app.use(
     bodyParser.urlencoded({
@@ -81,7 +81,7 @@ console.log(__dirname);
 
 app.get('/', (req, res) => {
     res.render("pages/login", {
-
+        
     }); 
 });
 
