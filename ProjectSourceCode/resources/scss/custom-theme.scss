@@ -21,6 +21,6 @@ $primary: #85c12b;
 
 .navbar-profile:hover {
     
-    color: $secondary-bg-subtle;
+    color: shade-color($secondary, 20%);
 }
 

@@ -81,7 +81,7 @@ console.log(__dirname);
 
 app.get('/', (req, res) => {
     res.render("pages/login", {
-        
+        loggedIn: true, // TODO make this dependent on whether or not user is actually logged in
     }); 
 });
 
